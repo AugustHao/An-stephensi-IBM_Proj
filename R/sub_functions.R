@@ -118,8 +118,8 @@ rehydrate_lifehistory_function <- function(path_to_object) {
 }
 
 
-aquatic_stage <- "C:/Users/JOhiolei/OneDrive - The Kids Research Institute Australia/Documents/An-stephensi-IBM_Proj/R/das_temp_dens_As.RDS"
-adult_stage <- "C:/Users/JOhiolei/OneDrive - The Kids Research Institute Australia/Documents/An-stephensi-IBM_Proj/R/ds_temp_humid.RDS"
+aquatic_stage <- "R/das_temp_dens_As.RDS"
+adult_stage <- "R/ds_temp_humid.RDS"
 
 das_temp_dens_As <- rehydrate_lifehistory_function(aquatic_stage)
 ds_temp_humid_As <- rehydrate_lifehistory_function(adult_stage)
